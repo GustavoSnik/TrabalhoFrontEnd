@@ -1,0 +1,115 @@
+nav{
+	background-color: transparent;
+	
+
+	opacity: 1;
+	width: 100%;
+	margin-bottom: 1.75cm;
+	max-height: 100%;
+	max-width: 100%;
+  background-size: 100%;
+  height: 10cm;
+
+.brand-logo-center{
+  max-width: 10000px;
+  max-height: 10000px;
+}
+
+}
+.navbar {
+	opacity: 1;
+  margin-right: 3cm;
+
+
+}
+.segunda{
+	background-color: lightblue;
+	height: 1.75cm;
+
+}
+
+li {display: inline;
+	}
+
+
+.button {
+	
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #1C1C1C;
+  font-weight: bold;
+  padding: 1px;
+  width: 100px;
+  text-align: center;  
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #1C1C1C;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.button {
+   animation-name: animacao;
+   animation-duration: 5s;
+   animation-timing-function: ease-out;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-play-state: running;
+}
+
+@keyframes animacao2 {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:darksalmon;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:indianred;
+    transform:rotate(90deg);
+  }
+  75%  { 
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {  
+    border-radius:50%;
+    background:darksalmon;
+    transform:rotate(180deg);
+  }
+}
+
+.espaco {
+  background-image: url("src/assets/fundo.jpg");
+}
+
+

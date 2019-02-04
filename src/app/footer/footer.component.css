@@ -1,0 +1,30 @@
+footer{
+	width: 100%;
+    display: table;
+    min-height: 5cm;
+    flex-direction: row;
+    background-color: lightblue;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .instaicone {
+  		width: 5px;
+  		height: 5px;
+  }
+  img {
+  	width: 80px;
+  	height: 80px;
+  	border-color: darkgray;
+  	box-shadow: ;
+  }
+
+  h2 {
+  	background-color: gray;
+  	text-shadow: 1px 1px 1px 1px;
+  	color: black;
+
+
+  }

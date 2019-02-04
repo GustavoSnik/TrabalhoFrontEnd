@@ -1,0 +1,23 @@
+.espaco{
+    background-image: url("http://blog.fazedores.com/wp-content/uploads/2014/09/CARPENTERtolls.jpg");
+	width: 100%;
+	color: black;
+	height: 200px;
+	margin-top: 2cm;
+	font-family: 'Patua One', cursive;
+}
+
+
+.barra {
+	background-image: url(https://uploaddeimagens.com.br/images/001/874/475/original/separadorcontato.JPG);
+	width: 80%; 	
+	color: white;
+	height: 5cm;
+	line-height: 0.5cm;
+
+}
+
+h2 {
+	
+}
+	
